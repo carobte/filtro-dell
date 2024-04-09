@@ -32,7 +32,7 @@ fecha: 09/04/2024
     <!-- Encabezado página -->
 
     <header id="header">
-        <a href="#primera-section"><h1 class="oscuro titles-italic"><span class="purple"><img class="iconos-logo" src="./public/icons/menor.webp" alt="icono menor"> T</span>rans<span class="purple">R</span>iwi <img class="iconos-logo" src="./public/icons/mayor.webp" alt="icono mayor"></h1></a>
+        <a href="#"><h1 class="oscuro titles-italic"><span class="purple"><img class="iconos-logo" src="./public/icons/menor.webp" alt="icono menor"> T</span>rans<span class="purple">R</span>iwi <img class="iconos-logo" src="./public/icons/mayor.webp" alt="icono mayor"></h1></a>
         <nav id="nav">
             <a class="oscuro" href="#requisitos"><i class="bi bi-card-checklist"></i> Requisitos</a>
             <a class="oscuro" href="#acerca"><i class="bi bi-geo-fill"></i> Acerca de nosotros</a>
@@ -162,8 +162,8 @@ fecha: 09/04/2024
                 <legend id="title-form"> Registrate cuando quieras </legend>
                 <input class="input input-registro" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
                 <input class="input input-registro" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
-                <input class="input input-registro" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
-                <input class="input input-registro" list="centros" placeholder="Selecciona tu centro de formación" required>
+                <input class="input input-registro" type="number" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
+                <input class="input input-registro" list="centros" placeholder="Selecciona tu centro de formación" required> <!-- Lista de centros reutilizada del primer formulario, ya que es la misma información -->
                 <select class="input input-registro" name="perfil" id="perfil" required>
                     <option disabled selected>Selecciona tu perfil</option>
                     <option value="conductor">Conductor</option>
@@ -200,6 +200,7 @@ fecha: 09/04/2024
     <!-- Pie de página -->
 
     <footer id="footer">
+        <!-- Icono de Whatsapp que está fijo por toda la pantalla -->
         <a id="a-whatsapp" href="https://wa.me/+573017325327/?text=Hola, deseo más información sobre conductores Riwi" target="_blank"><img id="whatsapp" src="./public/icons/whatsapp.webp" alt="Icono whatsapp"></a>
         <section>
             <a class="iconos-footer" href="https://www.facebook.com/people/Riwi/100092420949391/?locale=es_LA" target="_blank"><i class="bi bi-facebook"></i></a>
