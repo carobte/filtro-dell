@@ -36,6 +36,7 @@ html{
 
 body{
     padding: 10px;
+    background-color: var(--blanco);
 }
 
 .purple{
@@ -46,8 +47,10 @@ body{
     color: var(--oscuro);
 }
 
-.italic{
+.titles-italic{
     font-style: italic;
+    text-align: center;
+    font-size: 64px;
 
 }
 
@@ -55,12 +58,44 @@ body{
     background-color: var(--claro);
     color: var(--blanco);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
 }
 
 .icono-purple{
     color: var(--claro);
+}
+
+.input{
+    border: 1px solid var(--claro);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-form{
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid var(--oscuro);
+}
+
+
+/* Secciones */
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Imagenes */
+
+.img{
+    border-radius: 50px;
+    width: 80vh;
 }
 
 /* Header */
@@ -70,7 +105,6 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 70px;
-
 }
 
 .iconos-logo{
@@ -82,4 +116,27 @@ body{
     gap: 20px;
     align-items: center;
 }
+
+/* Primer section */
+
+.imagen{
+    text-align: center; /* Centrar la imagen en su espacio*/
+}
+
+#formulario-solicitud{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#formulario-solicitud form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px auto;
+}
+
+
+
+
 

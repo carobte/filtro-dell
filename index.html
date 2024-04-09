@@ -32,7 +32,7 @@ fecha: 09/04/2024
     <!-- Encabezado página -->
 
     <header id="header">
-        <a href="/"><h1 class="oscuro italic"><span class="purple"><img class="iconos-logo" src="./public/icons/menor.webp" alt="icono menor"> T</span>rans<span class="purple">R</span>iwi <img class="iconos-logo" src="./public/icons/mayor.webp" alt="icono mayor"></h1></a>
+        <a href="/"><h1 class="oscuro titles-italic"><span class="purple"><img class="iconos-logo" src="./public/icons/menor.webp" alt="icono menor"> T</span>rans<span class="purple">R</span>iwi <img class="iconos-logo" src="./public/icons/mayor.webp" alt="icono mayor"></h1></a>
         <nav id="nav">
             <a class="oscuro" href="#requisitos"><i class="bi bi-card-checklist"></i> Requisitos</a>
             <a class="oscuro" href="#acerca"><i class="bi bi-geo-fill"></i> Acerca de nosotros</a>
@@ -49,37 +49,37 @@ fecha: 09/04/2024
 
         <!-- Primer section con formulario para solicitar -->
 
-        <section>
-            <article>
-                <h2 class="oscuro italic">Transportate desde cualquier lugar hacia tu centro de entrenamiento</h2>
+        <section class="section">
+            <article id="formulario-solicitud">
+                <h2 class="oscuro titles-italic">Transportate desde cualquier lugar hacia tu centro de entrenamiento</h2>
                 <form action="/" method="post">
-                    <input type="text" placeholder="Ingresa tu ubicación" required>
-                    <input type="text" placeholder="Selecciona tu centro de formación" required>
-                    <button type="submit" class="btn-purple"><i class="bi bi-send-fill"></i> Solicitar vehículo</button>
+                    <input class="input" type="text" placeholder="Ingresa tu ubicación" required>
+                    <input class="input" type="text" placeholder="Selecciona tu centro de formación" required>
+                    <button type="submit" class="btn-purple btn-form"><i class="bi bi-send-fill"></i> Solicitar vehículo</button>
                 </form>
             </article>
-            <article>
-                <img src="./public/images/cuatro_pasajeros.webp" alt="cuatro pasajeros">
+            <article class="imagen">
+                <img class="img" src="./public/images/cuatro_pasajeros.webp" alt="cuatro pasajeros">
             </article>
         </section>
 
         <!-- Segundo section con registrarse -->
 
-        <section>
+        <section class="section">
             <article>
-                <img src="./public/images/conductora.webp" alt="conductora">
+                <img class="img" src="./public/images/conductora.webp" alt="conductora">
             </article>
             <article>
-                <h2 class="oscuro italic"> Registrate cuando quieras y genera las ganancias que necesites</h2>
+                <h2 class="oscuro titles-italic"> Registrate cuando quieras y genera las ganancias que necesites</h2>
                 <p>¡Unete hoy y abre las puertas a tus oportunidades financieras!</p>
             </article>
         </section>
 
         <!-- Tercer section con sedes -->
 
-        <section>
+        <section class="section">
             <article>
-                <h2 class="oscuro italic">Viaja con amigos</h2>
+                <h2 class="oscuro titles-italic">Viaja con amigos</h2>
                 <p>¡Viaja con amigos y crea recuerdos inolvidables!</p>
                 <p>Observa la lista de vehículos disponibles en cada una de nuestras sedes</p>
                 <table>
@@ -115,15 +115,15 @@ fecha: 09/04/2024
                 </table>
             </article>
             <article>
-                <img src="./public/images/motociclistas.webp" alt="motociclistas">
+                <img class="img" src="./public/images/motociclistas.webp" alt="motociclistas">
             </article>
         </section>
 
         <!-- Cuarto section con requisitos -->
 
-        <section>
+        <section id="requisitos">
             <h2 class="oscuro">¿Qué necesito para ser un conductor Riwi?</h2>
-            <img src="./public/images/conductores.webp" alt="conductores">
+            <img class="img" src="./public/images/conductores.webp" alt="conductores">
             <article>
                 <div>
                     <p class="icono-purple"><i class="bi bi-star-fill"></i></p>
@@ -164,14 +164,14 @@ fecha: 09/04/2024
                 </select>
                 <textarea name="comentarios" id="comentarios" cols="30" rows="10" required
                     placeholder="Comentarios"></textarea>
-                <button class="btn-purple" type="submit">Registrate</button>
+                <button class="btn-purple btn-form" type="submit">Registrate</button>
             </form>
         </section>
 
         <!-- Sexto section con Acerca de nosotros -->
 
-        <h2 class="oscuro italic">Acerca de nosotros</h2>
-        <section>
+        <h2 id="acerca" class="oscuro titles-italic">Acerca de nosotros</h2>
+        <section class="section">
             <article>
                 <h3>Quienes somos</h3>
                 <iframe width="560" height="315"
