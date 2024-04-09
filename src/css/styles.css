@@ -9,6 +9,7 @@ fecha: 09/04/2024
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/* Reset de estilos por defecto */
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,68 @@ fecha: 09/04/2024
     text-decoration: none;
 }
 
+/* Variables */
+
 :root{
-    
+    --oscuro: #181E4B;
+    --claro:  #6b5cff;
+    --blanco: #F9FAFC;
 }
+
+/* Scroll */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilos generales */
+
+body{
+    padding: 10px;
+}
+
+.purple{
+    color: var(--claro);
+}
+
+.oscuro{
+    color: var(--oscuro);
+}
+
+.italic{
+    font-style: italic;
+
+}
+
+.btn-purple{
+    background-color: var(--claro);
+    color: var(--blanco);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icono-purple{
+    color: var(--claro);
+}
+
+/* Header */
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+
+.iconos-logo{
+    width: 16px;
+}
+
+#nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
