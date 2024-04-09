@@ -32,6 +32,10 @@ html{
     scroll-behavior: smooth;
 }
 
+#requisitos, #acerca{
+    scroll-margin-top: 80px;
+}
+
 /* Estilos generales */
 
 body{
@@ -73,6 +77,11 @@ body{
     margin: 10px;
 }
 
+.input:focus{
+    outline: 1px solid var(--claro);
+
+}
+
 .btn-form{
     width: 50%;
     padding: 10px;
@@ -80,8 +89,12 @@ body{
     border: 1px solid var(--oscuro);
 }
 
+.text-margin-top{
+    margin-top: 30px;
+}
 
-/* Secciones */
+
+/* Estilos generales de las secciones */
 
 .section{
     display: flex;
@@ -90,6 +103,14 @@ body{
     width: 95%;
     margin: 0 auto;
 }
+
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
 
 /* Imagenes */
 
@@ -105,6 +126,11 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    width: 100%;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    background-color: var(--blanco);
 }
 
 .iconos-logo{
@@ -119,14 +145,8 @@ body{
 
 /* Primer section */
 
-.imagen{
-    text-align: center; /* Centrar la imagen en su espacio*/
-}
-
-#formulario-solicitud{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+#primera-section{
+    margin-top:70px
 }
 
 #formulario-solicitud form{
@@ -135,6 +155,15 @@ body{
     width: 60%;
     margin: 20px auto;
 }
+
+/* Tabla tercera section */
+
+th{
+    border-bottom: 5px solid var(--claro);
+}
+
+
+
 
 
 

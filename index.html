@@ -49,8 +49,8 @@ fecha: 09/04/2024
 
         <!-- Primer section con formulario para solicitar -->
 
-        <section class="section">
-            <article id="formulario-solicitud">
+        <section class="section" id="primera-section">
+            <article class="article" id="formulario-solicitud">
                 <h2 class="oscuro titles-italic">Transportate desde cualquier lugar hacia tu centro de entrenamiento</h2>
                 <form action="/" method="post">
                     <input class="input" type="text" placeholder="Ingresa tu ubicación" required>
@@ -58,7 +58,7 @@ fecha: 09/04/2024
                     <button type="submit" class="btn-purple btn-form"><i class="bi bi-send-fill"></i> Solicitar vehículo</button>
                 </form>
             </article>
-            <article class="imagen">
+            <article>
                 <img class="img" src="./public/images/cuatro_pasajeros.webp" alt="cuatro pasajeros">
             </article>
         </section>
@@ -69,20 +69,20 @@ fecha: 09/04/2024
             <article>
                 <img class="img" src="./public/images/conductora.webp" alt="conductora">
             </article>
-            <article>
+            <article class="article">
                 <h2 class="oscuro titles-italic"> Registrate cuando quieras y genera las ganancias que necesites</h2>
-                <p>¡Unete hoy y abre las puertas a tus oportunidades financieras!</p>
+                <p class="text-margin-top">¡Únete hoy y abre las puertas a tus oportunidades financieras!</p>
             </article>
         </section>
 
         <!-- Tercer section con sedes -->
 
         <section class="section">
-            <article>
+            <article class="article">
                 <h2 class="oscuro titles-italic">Viaja con amigos</h2>
-                <p>¡Viaja con amigos y crea recuerdos inolvidables!</p>
-                <p>Observa la lista de vehículos disponibles en cada una de nuestras sedes</p>
-                <table>
+                <p class="text-margin-top">¡Viaja con amigos y crea recuerdos inolvidables!</p>
+                <p class="text-margin-top">Observa la lista de vehículos disponibles en cada una de nuestras sedes</p>
+                <table class="text-margin-top">
                     <thead>
                         <tr>
                             <th><i class="bi bi-buildings-fill"></i> Sede</th>
@@ -154,15 +154,15 @@ fecha: 09/04/2024
         <section>
             <form action="/" method="post">
                 <legend> Registrate cuando quieras </legend>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
-                <input type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
-                <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
-                <input type="text" name="centro" id="centro" placeholder="Ingresa tu centro" required>
+                <input class="input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                <input class="input" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
+                <input class="input" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
+                <input class="input" type="text" name="centro" id="centro" placeholder="Ingresa tu centro" required>
                 <select name="perfil" id="perfil" required>
                     <option disabled selected>Selecciona tu perfil</option>
                     <option value="coder">Coder</option>
                 </select>
-                <textarea name="comentarios" id="comentarios" cols="30" rows="10" required
+                <textarea class="input" name="comentarios" id="comentarios" cols="30" rows="10" required
                     placeholder="Comentarios"></textarea>
                 <button class="btn-purple btn-form" type="submit">Registrate</button>
             </form>
