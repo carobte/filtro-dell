@@ -54,7 +54,13 @@ fecha: 09/04/2024
                 <h2 class="oscuro titles-italic">Transportate desde cualquier lugar hacia tu centro de entrenamiento</h2>
                 <form id="formulario-registro" action="/" method="post">
                     <input class="input" type="text" placeholder="Ingresa tu ubicación" required>
-                    <input class="input" type="text" placeholder="Selecciona tu centro de formación" required>
+                    <input class="input" list="centros" placeholder="Selecciona tu centro de formación" required>
+                    <datalist  id="centros">
+                        <option value="Medellin">Medellin</option>
+                        <option value="Bucaramanga">Bucaramanga</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Cali">Cali</option>
+                    </datalist>
                     <button type="submit" class="btn-purple btn-form"><i class="bi bi-send-fill"></i> Solicitar vehículo</button>
                 </form>
             </article>
@@ -71,7 +77,7 @@ fecha: 09/04/2024
             </article>
             <article class="article">
                 <h2 class="oscuro titles-italic"> Registrate cuando quieras y genera las ganancias que necesites</h2>
-                <p class="text-margin-top">¡Únete hoy y abre las puertas a tus oportunidades financieras!</p>
+                <p class="margin-top">¡Únete hoy y abre las puertas a tus oportunidades financieras!</p>
             </article>
         </section>
 
@@ -80,9 +86,9 @@ fecha: 09/04/2024
         <section class="section">
             <article class="article">
                 <h2 class="oscuro titles-italic">Viaja con amigos</h2>
-                <p class="text-margin-top">¡Viaja con amigos y crea recuerdos inolvidables!</p>
-                <p class="text-margin-top">Observa la lista de vehículos disponibles en cada una de nuestras sedes</p>
-                <table class="text-margin-top">
+                <p class="margin-top">¡Viaja con amigos y crea recuerdos inolvidables!</p>
+                <p class="margin-top">Observa la lista de vehículos disponibles en cada una de nuestras sedes</p>
+                <table class="margin-top">
                     <thead>
                         <tr>
                             <th><i class="bi bi-buildings-fill"></i> Sede</th>
@@ -123,28 +129,28 @@ fecha: 09/04/2024
 
         <section id="requisitos" class="column-center">
             <h2 class="titles-italic oscuro">¿Qué necesito para ser un conductor Riwi?</h2>
-            <img class="img" src="./public/images/conductores.webp" alt="conductores">
+            <img class="img margin-top" src="./public/images/conductores.webp" alt="conductores">
             <article id="container-requisitos">
                 <div>
                     <p class="icono-purple"><i class="bi bi-star-fill"></i></p>
                     <h3>Requisitos</h3>
-                    <p>Ser mayor de 18 años</p>
-                    <p>Verificación antecedentes</p>
-                    <p>Ser coder en Riwi</p>
+                    <p class="txt-gris">Ser mayor de 18 años</p>
+                    <p class="txt-gris">Verificación antecedentes</p>
+                    <p class="txt-gris">Ser coder en Riwi</p>
                 </div>
                 <div>
                     <p class="icono-purple"><i class="bi bi-file-earmark-text-fill"></i></p>
                     <h3>Documentos</h3>
-                    <p>Licencia de conducción vigente</p>
-                    <p>SOAT vigente</p>
-                    <p>Tarjeta de propiedad del vehículo actual</p>
+                    <p class="txt-gris">Licencia de conducción vigente</p>
+                    <p class="txt-gris">SOAT vigente</p>
+                    <p class="txt-gris">Tarjeta de propiedad del vehículo actual</p>
                 </div>
                 <div>
                     <p class="icono-purple"><i class="bi bi-calendar-fill"></i></p>
                     <h3>Empezar es muy fácil</h3>
-                    <p>Registrate</p>
-                    <p>Sube tus documentos</p>
-                    <p>Sal a manejar</p>
+                    <p class="txt-gris">Registrate</p>
+                    <p class="txt-gris">Sube tus documentos</p>
+                    <p class="txt-gris">Sal a manejar</p>
                 </div>
             </article>
         </section>
@@ -157,12 +163,13 @@ fecha: 09/04/2024
                 <input class="input input-registro" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
                 <input class="input input-registro" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
                 <input class="input input-registro" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
-                <input class="input input-registro" type="text" name="centro" id="centro" placeholder="Selecciona tu centro de formación" required>
+                <input class="input input-registro" list="centros" placeholder="Selecciona tu centro de formación" required>
                 <select class="input input-registro" name="perfil" id="perfil" required>
                     <option disabled selected>Selecciona tu perfil</option>
-                    <option value="coder">Coder</option>
+                    <option value="conductor">Conductor</option>
+                    <option value="usuario">Usuario</option>
                 </select>
-                <textarea class="input input-registro" name="comentarios" id="comentarios" cols="30" rows="10" required
+                <textarea class="input input-registro" name="comentarios" id="comentarios" rows="10" required
                     placeholder="Comentarios"></textarea>
                 <button class="btn-purple btn-form" type="submit">Registrate</button>
             </form>
@@ -170,7 +177,7 @@ fecha: 09/04/2024
 
         <!-- Sexta section con Acerca de nosotros -->
 
-        <h2 id="acerca" class="oscuro titles-italic text-margin-top">Acerca de nosotros</h2>
+        <h2 id="acerca" class="oscuro titles-italic margin-top">Acerca de nosotros</h2>
         <section class="section">
             <article>
                 <h3 class="title-acerca">Quienes somos</h3>

@@ -24,6 +24,8 @@ fecha: 09/04/2024
     --oscuro: #181E4B;
     --claro:  #6b5cff;
     --blanco: #F9FAFC;
+    --gris: #696969;
+
 }
 
 /* Scroll */
@@ -70,6 +72,11 @@ body{
     font-size: 36px;
 }
 
+.txt-gris{
+    color: var(--gris);
+    line-height: 2;
+}
+
 /*-- Formularios --*/
 
 .input{
@@ -93,7 +100,7 @@ body{
 
 /* - margin top - */
 
-.text-margin-top{
+.margin-top{
     margin-top: 30px;
 }
 
@@ -162,6 +169,10 @@ body{
 
 /* Tabla tercera section - sedes */
 
+table{
+    border-collapse: collapse;
+}
+
 th{
     border-bottom: 5px solid var(--claro);
 }
@@ -194,7 +205,7 @@ th{
 }
 
 #title-form{
-    font-size: 24px;    color: var(--blanco);
+    font-size: 24px;    
     font-weight: 700;
     margin-bottom: 18px;
 }
@@ -226,7 +237,6 @@ th{
     
     margin-top: 30px;
     padding: 15px;
-    position: relative;;
 }
 
 .iconos-footer{
@@ -236,14 +246,14 @@ th{
 }
 
 #whatsapp{
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
 }
 
 #a-whatsapp{
-    position: absolute;
-    top: -25px;
+    position: fixed;
+    bottom: 25px;
     right: 0;
 }
 
