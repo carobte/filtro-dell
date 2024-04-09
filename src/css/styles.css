@@ -34,7 +34,7 @@ html{
     scroll-behavior: smooth;
 }
 
-#requisitos, #acerca, #registro{
+#requisitos, #acerca, #registro, #primera-section{
     scroll-margin-top: 80px;
 }
 
