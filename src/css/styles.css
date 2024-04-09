@@ -68,6 +68,7 @@ body{
 
 .icono-purple{
     color: var(--claro);
+    font-size: 36px;
 }
 
 .input{
@@ -156,13 +157,29 @@ body{
     margin: 20px auto;
 }
 
-/* Tabla tercera section */
+/* Tabla tercera section - sedes */
 
 th{
     border-bottom: 5px solid var(--claro);
 }
 
+/* Cuarta section - requisitos */
 
+#requisitos{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-requisitos{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    margin: 25px;
+}
 
 
 
