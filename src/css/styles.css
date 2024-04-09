@@ -39,7 +39,6 @@ html{
 /* Estilos generales */
 
 body{
-    padding: 10px;
     background-color: var(--blanco);
 }
 
@@ -195,7 +194,7 @@ th{
 }
 
 #title-form{
-    font-size: 24px;
+    font-size: 24px;    color: var(--blanco);
     font-weight: 700;
     margin-bottom: 18px;
 }
@@ -215,5 +214,36 @@ th{
 
 /* Estilos para el pie de página */
 
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--claro);
+    font-size: 20px;
+    color: var(--blanco);
+    
+    margin-top: 30px;
+    padding: 15px;
+    position: relative;;
+}
 
+.iconos-footer{
+    color: var(--blanco);
+    font-size: 36px;
+    margin-right: 18px;
+}
+
+#whatsapp{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#a-whatsapp{
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
 
