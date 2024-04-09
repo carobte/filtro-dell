@@ -148,7 +148,7 @@ body{
     align-items: center;
 }
 
-/* Primer section */
+/* Primer section - Solicita servicio */
 
 #primera-section{
     margin-top:70px
@@ -204,8 +204,16 @@ th{
     width: 100%;
 }
 
+/* Sexta section - Acerca de nosotros */
 
+.title-acerca{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 18px 0;
+    text-align: center;
+}
 
+/* Estilos para el pie de página */
 
 
 
