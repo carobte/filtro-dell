@@ -39,7 +39,7 @@ fecha: 09/04/2024
             <a class="oscuro" href="mailto:formacion@riwi.io"><i class="bi bi-envelope-fill"></i> Contactanos</a>
             <a class="oscuro" href="tel:+573017325327"><i class="bi bi-telephone-fill"></i> Llamanos</a>
             <button class="btn-purple"> Iniciar Sesión</button>
-            <button class="btn-purple"> Registrarte </button>
+            <a href="#registro"><button class="btn-purple"> Registrarte </button></a>
         </nav>
     </header>
 
@@ -52,7 +52,7 @@ fecha: 09/04/2024
         <section class="section" id="primera-section">
             <article class="article" id="formulario-solicitud">
                 <h2 class="oscuro titles-italic">Transportate desde cualquier lugar hacia tu centro de entrenamiento</h2>
-                <form action="/" method="post">
+                <form id="formulario-registro" action="/" method="post">
                     <input class="input" type="text" placeholder="Ingresa tu ubicación" required>
                     <input class="input" type="text" placeholder="Selecciona tu centro de formación" required>
                     <button type="submit" class="btn-purple btn-form"><i class="bi bi-send-fill"></i> Solicitar vehículo</button>
@@ -121,7 +121,7 @@ fecha: 09/04/2024
 
         <!-- Cuarta section con requisitos -->
 
-        <section id="requisitos">
+        <section id="requisitos" class="column-center">
             <h2 class="titles-italic oscuro">¿Qué necesito para ser un conductor Riwi?</h2>
             <img class="img" src="./public/images/conductores.webp" alt="conductores">
             <article id="container-requisitos">
@@ -151,18 +151,18 @@ fecha: 09/04/2024
 
         <!-- Quinto section con Formulario para registrarse -->
 
-        <section>
-            <form action="/" method="post">
-                <legend> Registrate cuando quieras </legend>
-                <input class="input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
-                <input class="input" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
-                <input class="input" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
-                <input class="input" type="text" name="centro" id="centro" placeholder="Ingresa tu centro" required>
-                <select name="perfil" id="perfil" required>
+        <section id="registro">
+            <form class="column-center" action="/" method="post">
+                <legend id="title-form"> Registrate cuando quieras </legend>
+                <input class="input input-registro" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                <input class="input input-registro" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
+                <input class="input input-registro" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required>
+                <input class="input input-registro" type="text" name="centro" id="centro" placeholder="Selecciona tu centro de formación" required>
+                <select class="input input-registro" name="perfil" id="perfil" required>
                     <option disabled selected>Selecciona tu perfil</option>
                     <option value="coder">Coder</option>
                 </select>
-                <textarea class="input" name="comentarios" id="comentarios" cols="30" rows="10" required
+                <textarea class="input input-registro" name="comentarios" id="comentarios" cols="30" rows="10" required
                     placeholder="Comentarios"></textarea>
                 <button class="btn-purple btn-form" type="submit">Registrate</button>
             </form>
@@ -184,7 +184,7 @@ fecha: 09/04/2024
                 <h3>¿Donde estamos ubicados?</h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.337817944862!2d-75.58618982445067!3d6.219106326624618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1ses-419!2sco!4v1712663613764!5m2!1ses-419!2sco"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
         </section>

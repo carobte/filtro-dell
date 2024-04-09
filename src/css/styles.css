@@ -32,7 +32,7 @@ html{
     scroll-behavior: smooth;
 }
 
-#requisitos, #acerca{
+#requisitos, #acerca, #registro{
     scroll-margin-top: 80px;
 }
 
@@ -71,6 +71,8 @@ body{
     font-size: 36px;
 }
 
+/*-- Formularios --*/
+
 .input{
     border: 1px solid var(--claro);
     border-radius: 8px;
@@ -90,12 +92,14 @@ body{
     border: 1px solid var(--oscuro);
 }
 
+/* - margin top - */
+
 .text-margin-top{
     margin-top: 30px;
 }
 
 
-/* Estilos generales de las secciones */
+/* -- secciones -- */
 
 .section{
     display: flex;
@@ -113,7 +117,7 @@ body{
 }
 
 
-/* Imagenes */
+/* -- imagenes -- */
 
 .img{
     border-radius: 50px;
@@ -163,9 +167,9 @@ th{
     border-bottom: 5px solid var(--claro);
 }
 
-/* Cuarta section - requisitos */
+/* Cuarta section - requisitos  &  Quinta section - Registro */
 
-#requisitos{
+.column-center{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -173,12 +177,31 @@ th{
     align-items: center;
 }
 
+/* -- Requisitos --*/
+
 #container-requisitos{
     display: flex;
     width: 100%;
     text-align: center;
     justify-content: space-around;
     margin: 25px;
+}
+
+/*-- Formulario --*/
+
+#registro{
+    width: 40%;
+    margin: auto;
+}
+
+#title-form{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.input-registro{
+    width: 100%;
 }
 
 
