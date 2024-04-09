@@ -32,7 +32,7 @@ fecha: 09/04/2024
     <!-- Encabezado página -->
 
     <header>
-        <h1><span class="purple">T</span>rans<span class="purple">R</span>iwi</h1>
+        <h1><span class="purple"><img class="iconos-logo" src="./public/icons/menor.webp" alt="icono menor">T</span>rans<span class="purple">R</span>iwi<img class="iconos-logo" src="./public/icons/mayor.webp" alt="icono mayor"></h1>
         <nav>
             <a href="#requisitos"> <i class="bi bi-card-checklist"></i> Requisitos</a>
             <a href="#acerca"><i class="bi bi-geo-fill"></i> Acerca de nosotros</a>
@@ -55,7 +55,7 @@ fecha: 09/04/2024
                 <form action="/" method="post">
                     <input type="text" placeholder="Ingresa tu ubicación" required>
                     <input type="text" placeholder="Selecciona tu centro de formación" required>
-                    <button type="submit" class="btn-purple"> Solicitar vehículo</button>
+                    <button type="submit" class="btn-purple"><i class="bi bi-send-fill"></i> Solicitar vehículo</button>
                 </form>
             </article>
             <article>
@@ -85,9 +85,9 @@ fecha: 09/04/2024
                 <table>
                     <thead>
                         <tr>
-                            <th>Sede</th>
-                            <th>Vehiculos</th>
-                            <th>Motos</th>
+                            <th><i class="bi bi-buildings-fill"></i> Sede</th>
+                            <th><i class="bi bi-car-front-fill"></i> Vehiculos</th>
+                            <th><i class="bi bi-bicycle"></i> Motos</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -126,28 +126,32 @@ fecha: 09/04/2024
             <img src="./public/images/conductores.webp" alt="conductores">
             <article>
                 <div>
-                    Icono
+                    <p class="icono-purple"><i class="bi bi-star-fill"></i></p>
                     <h3>Requisitos</h3>
                     <p>Ser mayor de 18 años</p>
                     <p>Verificación antecedentes</p>
                     <p>Ser coder en Riwi</p>
                 </div>
                 <div>
-                    Icono
+                    <p class="icono-purple"><i class="bi bi-file-earmark-text-fill"></i></p>
                     <h3>Documentos</h3>
                     <p>Licencia de conducción vigente</p>
                     <p>SOAT vigente</p>
                     <p>Tarjeta de propiedad del vehículo actual</p>
                 </div>
                 <div>
-                    Icono
+                    <p class="icono-purple"><i class="bi bi-calendar-fill"></i></p>
                     <h3>Empezar es muy fácil</h3>
                     <p>Registrate</p>
                     <p>Sube tus documentos</p>
                     <p>Sal a manejar</p>
                 </div>
             </article>
+        </section>
 
+        <!-- Quinto section con Formulacio para registrarse -->
+
+        <section>
             <form action="/" method="post">
                 <legend> Registrate cuando quieras </legend>
                 <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
@@ -164,7 +168,7 @@ fecha: 09/04/2024
             </form>
         </section>
 
-        <!-- Quinto section con Acerca de nosotros -->
+        <!-- Sexto section con Acerca de nosotros -->
 
         <h2>Acerca de nosotros</h2>
         <section>
@@ -189,7 +193,7 @@ fecha: 09/04/2024
     <!-- Pie de página -->
 
     <footer>
-        <img id="whatsapp" src="./public/icons/whatsapp.webp" alt="Icono whatsapp">
+        <a href="https://wa.me/+573017325327/?text=Hola, deseo más información sobre conductores Riwi" target="_blank"><img id="whatsapp" src="./public/icons/whatsapp.webp" alt="Icono whatsapp"></a>
         <section>
             <a href="https://www.facebook.com/people/Riwi/100092420949391/?locale=es_LA" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/riwi.io/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
@@ -197,7 +201,7 @@ fecha: 09/04/2024
             <a href="https://twitter.com/InfoRiwi4424" target="_blank"><i class="bi bi-twitter-x"></i></a>
         </section>
         <section>
-            <p>© 2024 <a href="https://riwi.io/">Riwi.io</a> Todos los derechos reservados</p>
+            <p>© 2024 <a href="https://riwi.io/" target="_blank">Riwi.io</a> Todos los derechos reservados</p>
         </section>
     </footer>
 </body>
